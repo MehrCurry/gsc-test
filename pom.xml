@@ -8,7 +8,8 @@
     <scm>
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
-    </scm>
+        <tag>HEAD</tag>
+  </scm>
     <dependencies>
         <dependency>
             <groupId>com.goldmansachs</groupId>
