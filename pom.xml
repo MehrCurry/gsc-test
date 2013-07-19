@@ -10,6 +10,34 @@
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
         <tag>1.0</tag>
   </scm>
+    <distributionManagement>
+        <!-- Publish versioned releases here -->
+        <repository>
+            <id>nexus</id>
+            <name>My releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+
+        <!-- Publish snapshots here -->
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>My snapshots</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>example</id>
+            <name>My Public Repository</name>
+            <url>http://localhost:8081/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>com.goldmansachs</groupId>
