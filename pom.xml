@@ -9,7 +9,19 @@
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
         <tag>1.1</tag>
-  </scm>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>My repo</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>My repo</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>com.goldmansachs</groupId>
