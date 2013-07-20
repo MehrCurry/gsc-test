@@ -5,7 +5,7 @@
     <groupId>de.gzockoll.prototype</groupId>
     <artifactId>gsc-test</artifactId>
     <packaging>pom</packaging>
-    <version>1.6.1-SNAPSHOT</version>
+    <version>1.6.2-SNAPSHOT</version>
     <modules>
         <module>module1</module>
         <module>module2</module>
