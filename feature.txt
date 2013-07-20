@@ -7,3 +7,15 @@ mvn-release-flow
 pom.xml
 src
 target
+LICENSE
+README.md
+do-release
+feature.txt
+gsc-test.iml
+module1
+module2
+mvn-release-flow
+pom.xml
+release.groovy
+src
+target
