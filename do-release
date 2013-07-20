@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 Version=$1
 
 git checkout -b release/$Version
@@ -25,17 +27,3 @@ git checkout master
 git merge --no-ff release/$Version
 git branch -d release/$Version
 git checkout develop
-
-function error_exit
-{
-
-#   ----------------------------------------------------------------
-#   Function for exit due to fatal program error
-#   	Accepts 1 argument:
-#   		string containing descriptive error message
-#   ----------------------------------------------------------------
-
-
-    git checkout develop
-    git branch -D release/$Version
-}
