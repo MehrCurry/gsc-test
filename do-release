@@ -2,7 +2,6 @@
 
 Version=$1
 
-git checkout -b release/$Version
 mvn -B release:prepare -DreleaseVersion=$Version
 mvn -B release:perform
 
