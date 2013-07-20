@@ -10,7 +10,7 @@
     <groupId>de.gzockoll.prototype</groupId>
     <artifactId>gsc-test</artifactId>
     <packaging>pom</packaging>
-    <version>1.8.2-SNAPSHOT</version>
+    <version>2.0.0</version>
     <modules>
         <module>module1</module>
         <module>module2</module>
@@ -18,7 +18,7 @@
     <scm>
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>mvn-v2.0.0</tag>
     </scm>
     <dependencies>
         <dependency>
