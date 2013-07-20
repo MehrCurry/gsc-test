@@ -24,5 +24,5 @@ git checkout develop
 # finally, if & when the code gets deployed to production
 git checkout master
 git merge --no-ff release/$Version
-git branch -d release/$Version
+#git branch -d release/$Version
 git checkout develop
