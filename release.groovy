@@ -5,6 +5,10 @@ import com.atlassian.jgitflow.core.*
 
 @Grapes(
         @Grab(group = 'com.atlassian.jgitflow', module = 'jgit-flow', version = '0.10')
+) @Grapes(
+        @Grab(group = 'com.atlassian.jgitflow', module = 'jgit-flow', version = '0.10')
+) @Grapes(
+        @Grab(group = 'com.atlassian.jgitflow', module = 'jgit-flow', version = '0.10')
 )
 import java.lang.Object
 
