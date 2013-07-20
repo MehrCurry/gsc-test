@@ -4,11 +4,12 @@
 
     <groupId>de.gzockoll.prototype</groupId>
     <artifactId>gsc-test</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2-release-script-SNAPSHOT</version>
     <scm>
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
-    </scm>
+        <tag>HEAD</tag>
+  </scm>
     <distributionManagement>
         <repository>
             <id>nexus</id>
