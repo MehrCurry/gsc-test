@@ -48,6 +48,7 @@
                 <version>1.0-alpha8</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <keepBranch>true</keepBranch>
                 </configuration>
             </plugin>
             <plugin>
