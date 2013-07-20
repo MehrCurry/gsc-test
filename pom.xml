@@ -5,11 +5,11 @@
 
     <groupId>de.gzockoll.prototype</groupId>
     <artifactId>gsc-test</artifactId>
-    <version>1.4.5</version>
+    <version>1.4.6</version>
     <scm>
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
-        <tag>1.4.5</tag>
+        <tag>1.4.6</tag>
     </scm>
     <distributionManagement>
         <repository>
