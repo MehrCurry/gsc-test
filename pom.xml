@@ -47,9 +47,6 @@
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>maven-jgitflow-plugin</artifactId>
                 <version>1.0-alpha8</version>
-                <configuration>
-                    <!-- see goals wiki page for configuration options -->
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
