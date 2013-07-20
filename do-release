@@ -8,7 +8,7 @@ mvn -B release:perform
 # merge the version changes back into develop so that folks are working against 
 #	the new release ("0.0.3-SNAPSHOT", in this case)
 git checkout develop
-git merge --no-ff release/$Version
+git merge --no-ff --no-edit release/$Version
  
 # housekeeping -- rewind the release branch by one commit to fix its version at "0.0.2"
 #	excuse the force push, it's because maven will have already pushed '0.0.3-SNAPSHOT'
@@ -21,7 +21,7 @@ git checkout develop
  
 # finally, if & when the code gets deployed to production
 git checkout master
-git merge --no-ff release/$Version
+git merge --no-ff --no-edit release/$Version
 git branch -d release/$Version
 git checkout develop
 
