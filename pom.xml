@@ -5,7 +5,7 @@
     <groupId>de.gzockoll.prototype</groupId>
     <artifactId>gsc-test</artifactId>
     <packaging>pom</packaging>
-    <version>1.5.4-SNAPSHOT</version>
+    <version>1.5.4</version>
     <modules>
         <module>module1</module>
         <module>module2</module>
@@ -13,7 +13,7 @@
     <scm>
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>1.5.4</tag>
     </scm>
     <distributionManagement>
         <repository>
