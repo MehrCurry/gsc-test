@@ -9,7 +9,7 @@
         <connection>scm:git:git@github.com:MehrCurry/gsc-test.git</connection>
         <developerConnection>scm:git:git@github.com:MehrCurry/gsc-test.git</developerConnection>
         <tag>HEAD</tag>
-  </scm>
+  	</scm>
     <distributionManagement>
         <repository>
             <id>nexus</id>
