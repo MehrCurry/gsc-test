@@ -8,9 +8,5 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>module1</artifactId>
-    <version>2.0.1</version>
-
-  <scm>
-    <tag>mvn-v2.0.1</tag>
-  </scm>
+    <version>2.0.2-SNAPSHOT</version>
 </project>
